@@ -1,5 +1,7 @@
 # mass-gap-horizonless
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22780350.svg)](https://doi.org/10.5281/zenodo.22780350)
+
 Code and data for the paper **"A horizonless branch in the mass gap and its gravitational-wave signatures"**.
 
 A tower of curvature terms caps curvature without invoking exotic matter and produces a branch of horizonless ultracompact objects that can populate the lower black-hole mass gap. The branch is constrained, not detected: its upper mass is a range rather than a number, its echo amplitudes are already partly excluded by O3, and its f-mode spectrum does not violate the universal f–Λ–M relation, so asteroseismology cannot discriminate it. The discriminators are the mass range and the tidal deformability.
@@ -93,6 +95,13 @@ The inner-horizon structure that this work's mini-theorem rules out for the towe
 
 Oleh Popenkov, *A horizonless branch in the mass gap and its gravitational-wave signatures* (2026).
 Code and data: https://github.com/alskorpius/mass-gap-horizonless — see [`CITATION.cff`](CITATION.cff).
+
+To cite this repository, use the archived release rather than the URL — see [`CITATION.cff`](CITATION.cff):
+
+| | DOI |
+|---|---|
+| all versions (resolves to the latest) | [10.5281/zenodo.22780350](https://doi.org/10.5281/zenodo.22780350) |
+| this version, `v1.0.1` | [10.5281/zenodo.22780351](https://doi.org/10.5281/zenodo.22780351) |
 
 ORCID: [0009-0008-9894-2982](https://orcid.org/0009-0008-9894-2982)
 
