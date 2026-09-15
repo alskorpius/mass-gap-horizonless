@@ -15,9 +15,10 @@ authors:
     email: oleh.popenkov@gmail.com
     affiliation: "Independent researcher, Kelowna, BC, Canada"
     orcid: "https://orcid.org/0009-0008-9894-2982"
-version: 1.0.0
-date-released: "2026-09-14"
+version: 1.0.1
+date-released: "2026-09-15"
 license: MIT
+license-url: "https://github.com/alskorpius/mass-gap-horizonless/blob/main/LICENSE"
 repository-code: "https://github.com/alskorpius/mass-gap-horizonless"
 keywords:
   - general relativity

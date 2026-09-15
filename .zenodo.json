@@ -1,0 +1,42 @@
+{
+  "title": "mass-gap-horizonless: a horizonless branch in the lower black-hole mass gap and its gravitational-wave signatures",
+  "description": "<p>Reproduction package for the paper <em>A horizonless branch in the mass gap and its gravitational-wave signatures</em>. Contains the curvature-tower mechanism and its cap, the mini-theorem on the impossibility of a degenerate inner horizon in the tower, the horizonlessness criterion and the threshold mass range, echoes and time delays, the tidal deformability, the validated f-mode computation, the baryon budget, and the quasinormal-mode results. Every number is reproduced by one command from a clean clone; the map from each number to its script and result file is in <code>docs/reproducibility.md</code>.</p><p>A tower of curvature terms caps curvature without invoking exotic matter and produces a branch of horizonless ultracompact objects that can populate the lower black-hole mass gap. The branch is <em>constrained, not detected</em>: its echo amplitudes are already partly excluded by O3, and its f-mode spectrum does not violate the universal f&ndash;&Lambda;&ndash;M relation, so asteroseismology cannot discriminate it. The discriminators are the mass range and the tidal deformability.</p><p><strong>Scope, stated here and not only in the repository:</strong> the central observational statement is a range, not a single mass. The branch criterion carries a shape factor running over [0.18, 0.39], which spreads the upper mass of the horizonless branch by a factor 2.2; quoting a single threshold mass would misrepresent the calculation. The echo amplitudes originally reported were a windowing artefact and have been corrected. The branch does not explain the emptiness of the 3.5&ndash;5 solar-mass region and makes no prediction about how populated it is.</p><p>The f-mode solver is <strong>RelModPy</strong> by Fabian Gittins, vendored unmodified under its own MIT licence in <code>src/third_party/relmodpy/</code> and not covered by this repository's licence. This work's contribution around it is the equation-of-state adapters and the replacement of the library's root finder. Otherwise: code in <code>src/</code> and <code>figures/</code> is MIT; data in <code>data/</code>, raw logs in <code>logs/</code> and the generated figure images are CC-BY-4.0.</p><p>The calculations were carried out with automated agents under the author's direction, with an independent cross-audit between two separate research projects. The author is responsible for the results.</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "version": "1.0.1",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Popenkov, Oleh",
+      "affiliation": "Independent researcher, Kelowna, BC, Canada",
+      "orcid": "0009-0008-9894-2982"
+    }
+  ],
+  "keywords": [
+    "general relativity",
+    "gravitational waves",
+    "mass gap",
+    "horizonless compact objects",
+    "quasinormal modes",
+    "tidal deformability",
+    "regular black holes",
+    "neutron stars",
+    "gravitational-wave echoes",
+    "reproducible research",
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/alskorpius/mass-gap-horizonless",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.22780231",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ]
+}
