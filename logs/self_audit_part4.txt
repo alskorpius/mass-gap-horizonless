@@ -1,0 +1,4 @@
+dt=0.002: K_max/K_Pl = 1.1227, bounced=True
+dt=0.001: K_max/K_Pl = 1.1227, bounced=True
+dt=0.0002: K_max/K_Pl = 1.1228, bounced=True
+verdict: CONFIRMED (K_max bounded ~Planckian, spread <10%% across steps)

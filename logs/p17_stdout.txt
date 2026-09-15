@@ -1,0 +1,14 @@
+(1) E_wind <= 1.1e+51 erg = 2.5% E_rot
+(2) B=2.4e+15 G: L_sd=8.81e+49 erg/s, tau_sd=511 s
+    ε(τ_GW = τ_sd) = 3.96e-03
+    τ_GW=100 s => ε=8.96e-03, L_GW=4.50e+50 erg/s
+    τ_GW=1000 s => ε=2.83e-03, L_GW=4.50e+49 erg/s
+    ε_mag(B=2.4e15) = 5.8e-10 -- GW dominates
+(3) f=2000 Hz: E_lim(short)=1.07e+55 erg; h_signal(4.5e52)=1.4e-23 = 6e-02x the limit
+    long-duration search: E_lim=1.71e+56 erg -- the same conclusion
+(4) O2 (2017): E_lim=1.07e+55 erg -- below threshold
+(4) A+ (~3×): E_lim=1.19e+54 erg -- below threshold
+(4) ET (~100×): E_lim=1.07e+51 erg -- DETECTABLE
+(4) CE (~300×): E_lim=1.19e+50 erg -- DETECTABLE
+
+verdict recorded

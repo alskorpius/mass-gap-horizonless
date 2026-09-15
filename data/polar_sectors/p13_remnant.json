@@ -1,0 +1,46 @@
+{
+  "p1_jet": {
+    "E_rot": 4.487847706212488e+52,
+    "E_iso": 3e+46,
+    "E_true_beamed": 3.3750000000000002e+44,
+    "E_jet_true": 3e+49,
+    "quiet_deficit": {
+      "B=1e+10": 11536032287.76981,
+      "B=1e+11": 115360322.87769808,
+      "B=1e+12": 1153603.2287769811
+    },
+    "B_for_jet": 25567723721656.484,
+    "verdict": "branch (a) 'quiet from birth' CONTRADICTS the jet (deficit ≥4-6 orders of magnitude); survival is possible only on branch (b) of ultra-early spin-down B≳1e15 G (proto-magnetar jet launch, Metzger+2011-class)"
+  },
+  "branch_b": {
+    "B_quiet_1000d": 2424673676652000.0,
+    "statement": "branch (b): B >= 2.4e15 G -- the jet launches (L0 ~ 9e49 erg/s, energy reserve for the jet 3e49 erg); by day 1000 L_sd<3e39"
+  },
+  "p2_composition": {
+    "Mdot_wind": [
+      0.001,
+      0.01
+    ],
+    "M_blue": 0.02,
+    "t_irr_max_s": [
+      2.0,
+      20.0
+    ],
+    "verdict": "the neutrino wind of the surviving remnant must shut off within t ≲ 2-20 s (otherwise it overruns the blue budget and erodes the red lanthanide component); the remnant cools and the wind dies out at ~10-30 s -- marginal, NOT an exclusion, but a tight constraint on the cooling phase"
+  },
+  "p3_dipole": {
+    "merger_amplification": "KH/MRI amplify the SMALL-SCALE field to 1e15-1e16 G within ms (Kiuchi+2018; Price-Rosswog 2006 -- from abstracts)",
+    "requirement": "branch (b) needs a coherent DIPOLE of the same magnitude",
+    "status": "open: simulations give small-scale amplification; whether the dipole reaches this level is not established; recorded as an assumption"
+  },
+  "p4_prediction": {
+    "L_excess_obs": 5.744377134878671e+39,
+    "B_window": [
+      2020559062545285.2,
+      1428741112370994.8
+    ],
+    "statement": "the corner remnant with B~(2.0-1.4)e15 G gives L_sd(1200d)=(3-6)e39 erg/s -- EXACTLY the band of the Chandra excess; decay ~t^-2 (like the afterglow) but with a flat floor at t>>tau; distinguished from the kilonova afterglow by spectrum (harder, PWN-type) and no correlation with ejecta mass",
+    "upper_limits": "if late-time (day >1500) upper limits come in <1e39 -- the window narrows from above; current limits are not comparably deep (the excess is contested)"
+  },
+  "verdict": "P13.1: branch (a) quiet-from-birth CONTRADICTS the jet -- over 1.7 s 2.6e39-2.6e43 erg is available (B=1e10-1e12) against the required ~3e49 (structured jet) -- deficit 1e6-1e10; jet launch requires L_sd≳1e46 => B≳2.6e13 (proto-magnetar class of successful jets: B~1e15-1e16). Survival -- only branch (b) of ultra-early spin-down: B>=2.4e15 G (quiet by day 1000). P13.2: NOT an exclusion, a tight constraint -- the wind phase ≲2-20 s (blue budget 0.02 Msun against mdot 1e-3-1e-2 Msun/s; the red component is preserved). P13.3: dipole coherence at the level of 1e15.5-1e16 after KH/MRI amplification (small-scale, up to 1e15-1e16) -- an OPEN assumption. P13.4: POSITIVE PREDICTION: a remnant with B=(1.4-2.0)e15 G gives L_sd(1200-1500 d)=(3-6)e39 erg/s -- the band of the late Chandra excess; B>=2.4e15 -- hidden (L<3e39 at all epochs). Range allowed by the late-time data: L_sd(1200d) <= 6e39 erg/s"
+}

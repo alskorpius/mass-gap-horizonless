@@ -1,0 +1,3 @@
+M/Mext=0.88: tau=2.00 ms (30 M☉), A(|R|=1)=0.081, limit 0.42 -> FULLY OPEN: |R|<=1 passes
+M/Mext=0.95: tau=5.53 ms (30 M☉), A(|R|=1)=0.283, limit 0.42 -> FULLY OPEN: |R|<=1 passes
+M/Mext=0.995: tau=16.44 ms (30 M☉), A(|R|=1)=0.321, limit 0.42 -> FULLY OPEN: |R|<=1 passes

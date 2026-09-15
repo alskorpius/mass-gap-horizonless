@@ -1,0 +1,163 @@
+{
+  "meta": "part 5: independent K implementation, 4 new paths + equator, h-scan",
+  "paths": {
+    "spiral": [
+      {
+        "r": 0.1,
+        "K_own": 0.16744359602438408,
+        "K_ref": 0.07845530530831724,
+        "diff": 0.08898829071606684
+      },
+      {
+        "r": 0.05,
+        "K_own": 0.07355229446048384,
+        "K_ref": 0.06311175316980666,
+        "diff": 0.010440541290677174
+      },
+      {
+        "r": 0.02,
+        "K_own": 0.01565073707125464,
+        "K_ref": 0.015005952939844747,
+        "diff": 0.0006447841314098923
+      },
+      {
+        "r": 0.01,
+        "K_own": 0.004280704184090212,
+        "K_ref": 0.00420091956516444,
+        "diff": 7.978461892577116e-05
+      }
+    ],
+    "parabola": [
+      {
+        "r": 0.1,
+        "K_own": 0.18533341332165776,
+        "K_ref": 0.10812052807352757,
+        "diff": 0.07721288524813019
+      },
+      {
+        "r": 0.05,
+        "K_own": 0.08392183642460793,
+        "K_ref": 0.07812552404061535,
+        "diff": 0.005796312383992586
+      },
+      {
+        "r": 0.02,
+        "K_own": 0.01829806455509697,
+        "K_ref": 0.018020127704431843,
+        "diff": 0.0002779368506651281
+      },
+      {
+        "r": 0.01,
+        "K_own": 0.005045936436133047,
+        "K_ref": 0.005014176825483219,
+        "diff": 3.1759610649828574e-05
+      }
+    ],
+    "oscillating": [
+      {
+        "r": 0.1,
+        "K_own": 0.07184019926801827,
+        "K_ref": 0.05150619148328596,
+        "diff": 0.020334007784732308
+      },
+      {
+        "r": 0.05,
+        "K_own": 0.0227081288121308,
+        "K_ref": 0.02205234187651275,
+        "diff": 0.0006557869356180503
+      },
+      {
+        "r": 0.02,
+        "K_own": 0.004042853412213185,
+        "K_ref": 0.004038287894341427,
+        "diff": 4.565517871758275e-06
+      },
+      {
+        "r": 0.01,
+        "K_own": 0.0010647023322412586,
+        "K_ref": 0.0010646492028353518,
+        "diff": 5.312940590685572e-08
+      }
+    ],
+    "along the axis": [
+      {
+        "r": 0.1,
+        "K_own": 0.054948959082764995,
+        "K_ref": 40.90769025061242,
+        "diff": 40.852741291529654
+      },
+      {
+        "r": 0.05,
+        "K_own": 0.019885201376185258,
+        "K_ref": 16.873879022150682,
+        "diff": 16.853993820774498
+      },
+      {
+        "r": 0.02,
+        "K_own": 0.003949111128551116,
+        "K_ref": 1.99963724094727,
+        "diff": 1.995688129818719
+      },
+      {
+        "r": 0.01,
+        "K_own": 0.001061297412541364,
+        "K_ref": 0.1764035447307146,
+        "diff": 0.17534224731817324
+      }
+    ],
+    "equator (control)": [
+      {
+        "r": 0.1,
+        "K_own": 0.18758609630693002,
+        "K_ref": 0.11079870141901438,
+        "diff": 0.07678739488791564
+      },
+      {
+        "r": 0.05,
+        "K_own": 0.08418185902732489,
+        "K_ref": 0.07853293771718484,
+        "diff": 0.005648921310140054
+      },
+      {
+        "r": 0.02,
+        "K_own": 0.018308561605948626,
+        "K_ref": 0.01803256954376309,
+        "diff": 0.0002759920621855372
+      },
+      {
+        "r": 0.01,
+        "K_own": 0.005046697659338406,
+        "K_ref": 0.00501500361269791,
+        "diff": 3.16940466404958e-05
+      }
+    ]
+  },
+  "h_scan": {
+    "0.001": 0.01662810797002834,
+    "0.0005": 0.015881934351028804,
+    "0.0001": 0.01565073707125464
+  },
+  "schwarzschild_validation": [
+    {
+      "r": 3.0,
+      "K_own": 0.06584362227390562,
+      "K_exact": 0.06584362139917696,
+      "rel_err": 1.3284941592119069e-08
+    },
+    {
+      "r": 5.0,
+      "K_own": 0.0030719997159126917,
+      "K_exact": 0.003072,
+      "rel_err": 9.247633735843088e-08
+    },
+    {
+      "r": 8.0,
+      "K_own": 0.00018310550662030243,
+      "K_exact": 0.00018310546875,
+      "rel_err": 2.0682234502800156e-07
+    }
+  ],
+  "original_code_bug": "the original numeric_k returns NEGATIVE K values (-2.4 at r=0.2 in the original JSON) and wild near-axis values (40.9 at r=0.1, th~=0.06; 0.176 even at r=0.01) — impossible for K=R_{abcd}R^{abcd}>=0; a bug in its Christoffel products/contractions. The main claim of E5 (K->0 at the center) survives: agreement between the two implementations along 4 paths at r<=0.1, and independent validation on Schwarzschild (48/r^6 to 2e-7); the intermediate and near-axis values of the original E5 report should be discarded",
+  "verdict": "CONFIRMED with a correction: K->0 at the center — yes (second implementation, 5 paths, Schwarzschild validation, h-stability; agreement with the original code on 4/5 paths); the original numeric_k contains a bug — its intermediate/near-axis values should be discarded",
+  "symbolic_note": "the a->0 limit is degenerate (r_m ~ a^2/M, m->M): the spherical reduction does not apply; symbolic corroboration — R ~ r^{2z-2}, z=1.5>1 (Eq. (15) of Franzin et al.)"
+}

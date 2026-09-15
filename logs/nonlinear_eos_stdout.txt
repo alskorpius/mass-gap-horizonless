@@ -1,0 +1,23 @@
+VALIDATE 1.3443747686898277 0.5 R0=3.5731 Pi_eq=0.5000 vpp_E3=-0.1654 vpp_reduced=-0.1654 rel=1.72e-06
+VALIDATE 1.8443747686898277 0.5 R0=4.5190 Pi_eq=0.5000 vpp_E3=-0.1247 vpp_reduced=-0.1247 rel=1.28e-06
+VALIDATE 1.3443747686898277 1.0 R0=2.9872 Pi_eq=1.0000 vpp_E3=-0.5672 vpp_reduced=-0.5672 rel=2.19e-07
+M_lo (M=1.344): power-law stable: 1474/2400; causal-class stable R*: 277/400
+   example: R*=3.552 Pi=0.509 Gamma_c=1.000
+M_hi (M=1.844): power-law stable: 1416/2400; causal-class stable R*: 302/400
+   example: R*=4.632 Pi=0.458 Gamma_c=0.997
+PROBE R*=2.739 Pi=2.666 G=0.0: vpp=-4.5664 dyn=BH_submersion turns=0
+PROBE R*=2.739 Pi=2.666 G=0.5: vpp=-4.3931 dyn=BH_submersion turns=0
+PROBE R*=2.739 Pi=2.666 G=1.0: vpp=-4.2198 dyn=BH_submersion turns=0
+PROBE R*=2.739 Pi=2.666 G=2.0: vpp=-3.8733 dyn=BH_submersion turns=0
+PROBE R*=3.189 Pi=0.732 G=0.0: vpp=-0.6009 dyn=BH_submersion turns=0
+PROBE R*=3.189 Pi=0.732 G=0.5: vpp=-0.4108 dyn=BH_submersion turns=0
+PROBE R*=3.189 Pi=0.732 G=1.0: vpp=-0.2206 dyn=BH_submersion turns=0
+PROBE R*=3.189 Pi=0.732 G=2.0: vpp=+0.1596 dyn=bounded_oscillation turns=11
+PROBE R*=3.689 Pi=0.457 G=0.0: vpp=-0.2940 dyn=BH_submersion turns=0
+PROBE R*=3.689 Pi=0.457 G=0.5: vpp=-0.1275 dyn=BH_submersion turns=0
+PROBE R*=3.689 Pi=0.457 G=1.0: vpp=+0.0390 dyn=bounded_oscillation turns=7
+PROBE R*=3.689 Pi=0.457 G=2.0: vpp=+0.3720 dyn=bounded_oscillation turns=21
+PROBE R*=4.033 Pi=0.365 G=0.0: vpp=-0.2037 dyn=BH_submersion turns=0
+PROBE R*=4.033 Pi=0.365 G=0.5: vpp=-0.0547 dyn=BH_submersion turns=0
+PROBE R*=4.033 Pi=0.365 G=1.0: vpp=+0.0944 dyn=bounded_oscillation turns=12
+PROBE R*=4.033 Pi=0.365 G=2.0: vpp=+0.3926 dyn=bounded_oscillation turns=24

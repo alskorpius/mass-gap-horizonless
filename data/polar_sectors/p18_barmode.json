@@ -1,0 +1,180 @@
+{
+  "beta": {
+    "rows_P1": [
+      {
+        "M": 2.7,
+        "P_ms": 1.0,
+        "W_gr_factor": 0.6,
+        "beta": 0.06744997631314652,
+        "T_erg": 4.327567430990614e+52,
+        "W_erg": 6.4159658276220004e+53
+      },
+      {
+        "M": 2.7,
+        "P_ms": 1.0,
+        "W_gr_factor": 0.75,
+        "beta": 0.05395998105051721,
+        "T_erg": 4.327567430990614e+52,
+        "W_erg": 8.0199572845275e+53
+      },
+      {
+        "M": 2.7,
+        "P_ms": 1.0,
+        "W_gr_factor": 0.9,
+        "beta": 0.04496665087543101,
+        "T_erg": 4.327567430990614e+52,
+        "W_erg": 9.623948741433e+53
+      },
+      {
+        "M": 2.8,
+        "P_ms": 1.0,
+        "W_gr_factor": 0.6,
+        "beta": 0.065041048587677,
+        "T_erg": 4.487847706212488e+52,
+        "W_erg": 6.900023606111999e+53
+      },
+      {
+        "M": 2.8,
+        "P_ms": 1.0,
+        "W_gr_factor": 0.75,
+        "beta": 0.052032838870141596,
+        "T_erg": 4.487847706212488e+52,
+        "W_erg": 8.62502950764e+53
+      },
+      {
+        "M": 2.8,
+        "P_ms": 1.0,
+        "W_gr_factor": 0.9,
+        "beta": 0.04336069905845132,
+        "T_erg": 4.487847706212488e+52,
+        "W_erg": 1.0350035409168e+54
+      },
+      {
+        "M": 2.9,
+        "P_ms": 1.0,
+        "W_gr_factor": 0.6,
+        "beta": 0.06279825380879159,
+        "T_erg": 4.648127981434364e+52,
+        "W_erg": 7.401683485638001e+53
+      },
+      {
+        "M": 2.9,
+        "P_ms": 1.0,
+        "W_gr_factor": 0.75,
+        "beta": 0.05023860304703327,
+        "T_erg": 4.648127981434364e+52,
+        "W_erg": 9.252104357047501e+53
+      },
+      {
+        "M": 2.9,
+        "P_ms": 1.0,
+        "W_gr_factor": 0.9,
+        "beta": 0.041865502539194396,
+        "T_erg": 4.648127981434364e+52,
+        "W_erg": 1.1102525228457001e+54
+      }
+    ],
+    "range": [
+      0.041865502539194396,
+      0.06744997631314652
+    ],
+    "beta_secular": 0.14,
+    "beta_dynamic": 0.27,
+    "beta_secular_diff_rot": "(0.09-0.12)",
+    "statement": "β(P=1ms) = 0.042-0.067 (BELOW the secular threshold 0.14 at the minimum)",
+    "P_at_beta014_ms": 0.6096418085947892
+  },
+  "barmode": [
+    {
+      "growth_time_s": 100.0,
+      "tag": "minutes",
+      "eps_sat": 0.0,
+      "E_erg": 0.0,
+      "L_GW": 0.0,
+      "t_radiate_s": Infinity
+    },
+    {
+      "growth_time_s": 1000.0,
+      "tag": "hundreds of s",
+      "eps_sat": 0.0,
+      "E_erg": 0.0,
+      "L_GW": 0.0,
+      "t_radiate_s": Infinity
+    },
+    {
+      "growth_time_s": 10000.0,
+      "tag": "hours",
+      "eps_sat": 0.0,
+      "E_erg": 0.0,
+      "L_GW": 0.0,
+      "t_radiate_s": Infinity
+    }
+  ],
+  "barmode_statement": "β(P=1ms)=0.052 < 0.14: the bar mode is absent for the nominal profile; ε_sat~0.000",
+  "rmodes": [
+    {
+      "alpha": 0.0001,
+      "E_erg": 2.820932843904993e+39
+    },
+    {
+      "alpha": 0.001,
+      "E_erg": 2.8209328439049933e+41
+    },
+    {
+      "alpha": 0.01,
+      "E_erg": 2.8209328439049933e+43
+    }
+  ],
+  "rmodes_statement": "r-modes at typical saturation α~1e-4-1e-2 give <=2.82e+43 erg -- ~9 orders of magnitude below E_rot -- INSUFFICIENT",
+  "retro_short": {
+    "rows": [
+      {
+        "source": "bar mode (excess β)",
+        "E_erg": 0.0,
+        "h_rss": 0.0,
+        "ratio_to_limit": 0.0
+      },
+      {
+        "source": "full GW spin-down",
+        "E_erg": 4.5e+52,
+        "h_rss": 1.3611818007488828e-23,
+        "ratio_to_limit": 0.06481818098804204
+      },
+      {
+        "source": "r-mode α=1e-2",
+        "E_erg": 2.8209328439049933e+43,
+        "h_rss": 3.408052298451144e-28,
+        "ratio_to_limit": 1.622882046881497e-06
+      }
+    ],
+    "limit": 2.1e-22,
+    "f_GW_Hz": 1999.9999999999998
+  },
+  "channel_table": [
+    {
+      "channel": "magnetic ε (dipole)",
+      "energy": "~0",
+      "time": "--",
+      "status": "ε_mag=6e-10 ≪ 4e-3 -- insufficient"
+    },
+    {
+      "channel": "bar mode (secular)",
+      "energy": "none",
+      "time": "minutes-hours (growth)",
+      "status": "β=0.052<0.14 -- NO INSTABILITY"
+    },
+    {
+      "channel": "r-modes (α<=1e-2)",
+      "energy": "<=2.82e+43 erg",
+      "time": "--",
+      "status": "~9 orders of magnitude smaller -- insufficient"
+    },
+    {
+      "channel": "toroid B>=6e18 G",
+      "energy": "full E_rot",
+      "time": "τ_GW~τ_sd",
+      "status": "requires a field near the virial limit"
+    }
+  ],
+  "verdict": "β = T/|W| for the corner remnant at P=1 ms: 0.042-0.067 (range of the GR factor W) -- THE WHOLE RANGE IS BELOW the secular threshold 0.14 (the dynamical threshold 0.27 even more so); β=0.14 requires P ≈ 0.61 ms. The bar mode IS ABSENT for all profiles considered. r-modes at saturation α<=1e-2 give <=2.8e43 erg -- 9 orders of magnitude below E_rot -- INSUFFICIENT. THE ONLY GW channel -- magnetic deformation from an internal toroid >=6e18 G ≈ (1.5x) the virial limit. Bottom line: the corner branch survives only for internal fields at the level of the virial limit -- recorded as an exclusion condition in the abstract"
+}

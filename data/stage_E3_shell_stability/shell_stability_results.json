@@ -1,0 +1,100 @@
+{
+  "anchor_minkowski_dust": [],
+  "stall_family": {
+    "M=1.344,kappa=0.0": [],
+    "M=1.344,kappa=0.25": [
+      {
+        "R0": 4.796427540406091,
+        "mu0": 0.6970603365870084,
+        "v_double_prime": -0.04702130744517503,
+        "analytic_verdict": "unstable",
+        "dynamics_verdict": "BH_submersion",
+        "dynamics": {
+          "outcome": "BH_submersion",
+          "v": 36.83000000000039,
+          "turns": 0
+        }
+      }
+    ],
+    "M=1.344,kappa=0.5": [
+      {
+        "R0": 3.573145458945735,
+        "mu0": 0.8583633303669176,
+        "v_double_prime": -0.16544207359827517,
+        "analytic_verdict": "unstable",
+        "dynamics_verdict": "BH_submersion",
+        "dynamics": {
+          "outcome": "BH_submersion",
+          "v": 25.89999999999913,
+          "turns": 0
+        }
+      }
+    ],
+    "M=1.344,kappa=1.0": [
+      {
+        "R0": 2.9871839627330687,
+        "mu0": 1.1001327913069716,
+        "v_double_prime": -0.5672027280116582,
+        "analytic_verdict": "unstable",
+        "dynamics_verdict": "BH_submersion",
+        "dynamics": {
+          "outcome": "BH_submersion",
+          "v": 20.015000000000303,
+          "turns": 0
+        }
+      }
+    ],
+    "M=1.344,kappa=-0.25": [],
+    "M=1.844,kappa=0.0": [],
+    "M=1.844,kappa=0.25": [
+      {
+        "R0": 5.805018404389882,
+        "mu0": 1.3918342058235704,
+        "v_double_prime": -0.03318662981312727,
+        "analytic_verdict": "unstable",
+        "dynamics_verdict": "BH_submersion",
+        "dynamics": {
+          "outcome": "BH_submersion",
+          "v": 47.25000000000572,
+          "turns": 0
+        }
+      }
+    ],
+    "M=1.844,kappa=0.5": [
+      {
+        "R0": 4.5190395934378,
+        "mu0": 1.6584226392302952,
+        "v_double_prime": -0.12465465743015594,
+        "analytic_verdict": "unstable",
+        "dynamics_verdict": "BH_submersion",
+        "dynamics": {
+          "outcome": "BH_submersion",
+          "v": 33.28999999999858,
+          "turns": 0
+        }
+      }
+    ],
+    "M=1.844,kappa=1.0": [
+      {
+        "R0": 3.9693271464913007,
+        "mu0": 1.982540322560611,
+        "v_double_prime": -0.4391809300512085,
+        "analytic_verdict": "unstable",
+        "dynamics_verdict": "BH_submersion",
+        "dynamics": {
+          "outcome": "BH_submersion",
+          "v": 25.669999999999177,
+          "turns": 0
+        }
+      }
+    ],
+    "M=1.844,kappa=-0.25": []
+  },
+  "stall_point_not_stationary_example": {
+    "R0": 3.6887495373796555,
+    "M": 1.3443747686898277,
+    "kappa": 0,
+    "dv_dr": 0.19278844676425863,
+    "note": "V_eff'(R0) != 0: a stall point is not an equilibrium without flux"
+  }
+}

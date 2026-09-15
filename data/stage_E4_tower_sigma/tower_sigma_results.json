@@ -1,0 +1,271 @@
+{
+  "symbolic_proof": {
+    "chain_identity": true,
+    "coefficient_identity": true,
+    "E1_root_condition": "[0, -a1, a2, 3*a3, 5*a4, 7*a5, 9*a6]",
+    "note": "alpha_1=1 => the constant term of E1 = -psi; higher terms >= 0 => psi* = Sum_{n>=2}(2n-3)alpha_n psi*^n"
+  },
+  "geometric": {
+    "name": "geometric",
+    "E1_roots": [
+      0.3333333333333333
+    ],
+    "E2_at_roots": [
+      0.22222222222222238
+    ],
+    "sigma_min": 0.006000000000000006,
+    "sigma_max": 5.999400000003108,
+    "sigma_monotone_in_t": true,
+    "crossing2_solutions": [
+      {
+        "psi": 0.6666666666666666,
+        "sigma_prime_over_t": -0.6666673651679101
+      }
+    ]
+  },
+  "n_alpha": {
+    "name": "n_alpha",
+    "E1_roots": [
+      0.19999999999999993
+    ],
+    "E2_at_roots": [
+      0.1111111111111111
+    ],
+    "sigma_min": 0.0022515009380628306,
+    "sigma_max": 5.998500209977453,
+    "sigma_monotone_in_t": true,
+    "crossing2_solutions": [
+      {
+        "psi": 0.4357816691595691,
+        "sigma_prime_over_t": -0.6892418231267323
+      }
+    ]
+  },
+  "log": {
+    "name": "log",
+    "E1_roots": [
+      0.5335892339199964
+    ],
+    "E2_at_roots": [
+      0.4581986538606906
+    ],
+    "sigma_min": 0.1442922769980646,
+    "sigma_max": 5.999799978468317,
+    "sigma_monotone_in_t": true,
+    "crossing2_solutions": [
+      {
+        "psi": 0.9297485755959326,
+        "sigma_prime_over_t": -0.9958611707801092
+      }
+    ]
+  },
+  "mixes_summary": [
+    [
+      false,
+      "a2=0.5,a3=0.1",
+      [
+        1.1735990964653824
+      ],
+      [
+        0.42743442682591914
+      ]
+    ],
+    [
+      false,
+      "a2=0.5,a3=0.5",
+      [
+        0.6666666666666666
+      ],
+      [
+        0.3174603174603178
+      ]
+    ],
+    [
+      false,
+      "a2=0.5,a3=1.0",
+      [
+        0.5000000000000001
+      ],
+      [
+        0.2592592592592592
+      ]
+    ],
+    [
+      false,
+      "a2=0.5,a3=2.0",
+      [
+        0.36870240840817103
+      ],
+      [
+        0.2043121034581285
+      ]
+    ],
+    [
+      false,
+      "a2=0.5,a3=5.0",
+      [
+        0.24206957827100042
+      ],
+      [
+        0.14296176517539566
+      ]
+    ],
+    [
+      false,
+      "a2=1.0,a3=0.1",
+      [
+        0.8053994956985537
+      ],
+      [
+        0.22863782150595235
+      ]
+    ],
+    [
+      false,
+      "a2=1.0,a3=0.5",
+      [
+        0.5485837703548634
+      ],
+      [
+        0.20827865182083805
+      ]
+    ],
+    [
+      false,
+      "a2=1.0,a3=1.0",
+      [
+        0.43425854591066504
+      ],
+      [
+        0.1862131991599979
+      ]
+    ],
+    [
+      false,
+      "a2=1.0,a3=2.0",
+      [
+        0.33333333333333354
+      ],
+      [
+        0.15873015873015905
+      ]
+    ],
+    [
+      false,
+      "a2=1.0,a3=5.0",
+      [
+        0.2270083225302219
+      ],
+      [
+        0.12048566455443244
+      ]
+    ],
+    [
+      false,
+      "a2=2.0,a3=0.1",
+      [
+        0.46725141699712613
+      ],
+      [
+        0.1131037836813536
+      ]
+    ],
+    [
+      false,
+      "a2=2.0,a3=0.5",
+      [
+        0.38742588672279293
+      ],
+      [
+        0.11403711544330275
+      ]
+    ],
+    [
+      false,
+      "a2=2.0,a3=1.0",
+      [
+        0.3333333333333331
+      ],
+      [
+        0.11111111111111105
+      ]
+    ],
+    [
+      false,
+      "a2=2.0,a3=2.0",
+      [
+        0.274291885177432
+      ],
+      [
+        0.10413932591041908
+      ]
+    ],
+    [
+      false,
+      "a2=2.0,a3=5.0",
+      [
+        0.19999999999999893
+      ],
+      [
+        0.08888888888888868
+      ]
+    ]
+  ],
+  "twoterm_c0.5": {
+    "name": "twoterm_c0.5",
+    "E1_roots": [
+      1.9999999999999987
+    ],
+    "E2_at_roots": [
+      0.4444444444444442
+    ],
+    "sigma_min": 1.785394696642907,
+    "sigma_max": 5.999400074991384,
+    "sigma_monotone_in_t": true,
+    "crossing2_solutions": [
+      {
+        "psi": 5.464101615137739,
+        "sigma_prime_over_t": -0.012825269828907127
+      }
+    ],
+    "irregular_note": "truncated tower (no radius of convergence), outside the regular class"
+  },
+  "twoterm_c1.0": {
+    "name": "twoterm_c1.0",
+    "E1_roots": [
+      1.0000000000000002
+    ],
+    "E2_at_roots": [
+      0.22222222222222254
+    ],
+    "sigma_min": 1.6464011755714505,
+    "sigma_max": 5.998800299925423,
+    "sigma_monotone_in_t": true,
+    "crossing2_solutions": [
+      {
+        "psi": 2.7320508075688794,
+        "sigma_prime_over_t": -0.025650541611832677
+      }
+    ],
+    "irregular_note": "truncated tower (no radius of convergence), outside the regular class"
+  },
+  "twoterm_c2.0": {
+    "name": "twoterm_c2.0",
+    "E1_roots": [
+      0.5000000000000018
+    ],
+    "E2_at_roots": [
+      0.11111111111111105
+    ],
+    "sigma_min": 1.574136257171631,
+    "sigma_max": 5.997601199425571,
+    "sigma_monotone_in_t": true,
+    "crossing2_solutions": [
+      {
+        "psi": 1.366025403784437,
+        "sigma_prime_over_t": -0.05130107912116517
+      }
+    ],
+    "irregular_note": "truncated tower (no radius of convergence), outside the regular class"
+  }
+}

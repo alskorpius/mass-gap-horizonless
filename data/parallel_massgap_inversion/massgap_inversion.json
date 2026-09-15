@@ -1,0 +1,98 @@
+{
+  "eps_nuclear_km2": 0.00020793248753532263,
+  "rho_nuclear_g_cm3": 280000000000000.0,
+  "c_ext": {
+    "lo": 0.18,
+    "n6": 0.2314,
+    "hi": 0.39
+  },
+  "msun_km": 1.4767,
+  "rows": [
+    {
+      "direction": "forward",
+      "label": "eps_c = 1 x nuclear",
+      "eps_km2": 0.00020793248753532263,
+      "rho_g_cm3": 280000000000000.03,
+      "M_crit_lo": 8.453159344924842,
+      "M_crit_n6": 10.867005957864494,
+      "M_crit_hi": 18.315178580670494
+    },
+    {
+      "direction": "forward",
+      "label": "eps_c = 2 x nuclear",
+      "eps_km2": 0.00041586497507064527,
+      "rho_g_cm3": 560000000000000.06,
+      "M_crit_lo": 5.97728629524679,
+      "M_crit_n6": 7.684133604000595,
+      "M_crit_hi": 12.950786973034713
+    },
+    {
+      "direction": "forward",
+      "label": "eps_c = 4.7 x nuclear",
+      "eps_km2": 0.0009772826914160163,
+      "rho_g_cm3": 1316000000000000.0,
+      "M_crit_lo": 3.8991516510670876,
+      "M_crit_n6": 5.012576066982911,
+      "M_crit_hi": 8.448161910645355
+    },
+    {
+      "direction": "forward",
+      "label": "eps_c = 10 x nuclear",
+      "eps_km2": 0.002079324875353226,
+      "rho_g_cm3": 2800000000000000.0,
+      "M_crit_lo": 2.67312369542994,
+      "M_crit_n6": 3.4364490173471562,
+      "M_crit_hi": 5.791768006764871
+    },
+    {
+      "direction": "forward",
+      "label": "eps_c = 22 x nuclear",
+      "eps_km2": 0.004574514725777098,
+      "rho_g_cm3": 6160000000000001.0,
+      "M_crit_lo": 1.802219627806099,
+      "M_crit_n6": 2.3168534548573962,
+      "M_crit_hi": 3.9048091935798817
+    },
+    {
+      "direction": "inverse",
+      "label": "NS max ~2.3",
+      "eps_km2": 0.004641800675961097,
+      "rho_g_cm3": 6250606649662282.0,
+      "rho_over_nuclear": 22.32359517736529,
+      "M_crit_lo": 2.3,
+      "M_crit_n6": 2.3,
+      "M_crit_hi": 2.3
+    },
+    {
+      "direction": "inverse",
+      "label": "GW190814 2.6",
+      "eps_km2": 0.003632415026010976,
+      "rho_g_cm3": 4891377097146962.0,
+      "rho_over_nuclear": 17.469203918382007,
+      "M_crit_lo": 2.6,
+      "M_crit_n6": 2.6,
+      "M_crit_hi": 2.6
+    },
+    {
+      "direction": "inverse",
+      "label": "GW230529 ~3.6 (center)",
+      "eps_km2": 0.0018946856154193057,
+      "rho_g_cm3": 2551366448820483.5,
+      "rho_over_nuclear": 9.112023031501726,
+      "M_crit_lo": 3.6,
+      "M_crit_n6": 3.6,
+      "M_crit_hi": 3.6
+    },
+    {
+      "direction": "inverse",
+      "label": "gap top ~5.0",
+      "eps_km2": 0.0009822050230333678,
+      "rho_g_cm3": 1322628367068538.5,
+      "rho_over_nuclear": 4.723672739530494,
+      "M_crit_lo": 5.000000000000001,
+      "M_crit_n6": 5.0,
+      "M_crit_hi": 5.0
+    }
+  ],
+  "note": "the c_ext form factor gives a factor-2 range; the scarcity of gap objects may result from formation rather than the EOS; Lambda was not computed"
+}

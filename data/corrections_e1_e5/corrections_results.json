@@ -1,0 +1,51 @@
+{
+  "meta": "corrections from the companion paper's audit, 13.09.2026; both diagnostics verified against our own artifacts",
+  "e1a": {
+    "our_dRe_FFT": -0.0014247416269257962,
+    "our_dIm_FFT": 0.0017879334055433405,
+    "our_abs_err_Re": 0.001965273026400205,
+    "our_rel_err_Re": 0.005259381342896686,
+    "our_stored_rel_error_metric": 0.017147821480315233,
+    "shift_over_error": -0.724958622942838,
+    "diagnosis": "|ΔRe| = 1.4e−3 is 1.4x lower than our absolute Schwarzschild error in Re (1.97e−3, 0.53%); the FFT-peak systematic points downward (0.37170 < 0.37367), producing a spurious sign",
+    "accepted_from_companion_audit": {
+      "dRe": 0.000327,
+      "dRe_over_Re": 0.00088,
+      "dIm": 0.000144,
+      "dAbsIm_over_AbsIm": -0.0016,
+      "law": "dRe/Re = +0.087 (l/M)^2",
+      "method": "matrix pencil; Leaver check; 6th-order WKB — independent code from the companion paper (src/audit_bhp)"
+    },
+    "corrected_statement": "frequency increases, damping decreases with ℓ/M"
+  },
+  "e5": {
+    "our_kappa_plus": 0.22212065835470324,
+    "our_kappa_plus_kerr_field": 0.2142857142857143,
+    "kerr_correct": 0.22222222222222224,
+    "kerr_wrong_diagnosis": 0.2142857142857143,
+    "wrong_used_r_minus": 0.2571428571428572,
+    "kerr_r_minus": 0.19999999999999996,
+    "true_deviation": -0.0004570374038355001,
+    "statement": "deviation from Kerr −4.6e−4 (−0.046%): external indistinguishability is strengthened (was erroneously \"+3.6%\" due to r₋_Franzin in the Kerr formula)"
+  },
+  "eos_thermo_check": {
+    "our_builds": "two_phase (ε_c=const), lab_interface (SLy Read+09), finite_T_eos (additive thermal parts at s/n=const)",
+    "density_dependent_vacuum_term": "present in none of the constructions",
+    "verdict": "the p_kin−B without nB' error class does not apply; strong statements (\"unique\", \"for any\") in the text are qualified by class/assumptions — re-verified"
+  },
+  "own_method_revalidation": {
+    "method": "matrix pencil (rank 4), window t∈(100,250), our E1 waveform",
+    "omega_re": 0.37412625302546615,
+    "omega_im": -0.08627420637645555,
+    "leaver": {
+      "re": 0.37367,
+      "im": -0.08896
+    },
+    "fft_peak_was": {
+      "re": 0.3717,
+      "im": -0.09525
+    },
+    "rel_err_Re": 0.0012210052331365824,
+    "conclusion": "our time-domain data are correct; the E1 error was in FFT-peak extraction — this justifies adopting the audited Hayward values (matrix pencil)"
+  }
+}

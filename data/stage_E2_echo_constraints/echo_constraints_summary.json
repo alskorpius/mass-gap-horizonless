@@ -1,0 +1,13 @@
+{
+  "limits": {
+    "O3_current": 0.42,
+    "O4_projected": 0.28,
+    "O5_projected": 0.15
+  },
+  "sources": [
+    "arXiv:2302.12158 / PRD 108.064018 (Miani et al. 2023)",
+    "PRD 108.104040 (Uchikata et al. 2023)"
+  ],
+  "key_finding": "No cell of the current constraint is excluded: even at |R|=1 the predicted A=0.08-0.32 < 0.42; the O5 projection of 0.15 starts to touch configurations M/M_ext>=0.95 with |R|>0.47-0.53",
+  "window_note": "Miani: window <1 s covers our delays (2-20 ms for 10-60 M☉; ~13 min for Sgr A* — outside the window, but within the LISA band)"
+}

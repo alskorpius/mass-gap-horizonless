@@ -1,0 +1,75 @@
+{
+  "validation_schwarzschild_l2": {
+    "name": "schwarzschild",
+    "ell": null,
+    "l": 2,
+    "omega": {
+      "re": 0.3711637537337775,
+      "im": -0.0003160901871368906
+    },
+    "converged": false,
+    "residual": {
+      "re": -0.19364733034763992,
+      "im": 0.7166248944992297
+    },
+    "match_rstar": 45.0,
+    "known_value": {
+      "re": 0.37367,
+      "im": -0.08896
+    },
+    "rel_error": 0.230867547369408
+  },
+  "hayward_small_cores": [
+    {
+      "name": "hayward",
+      "ell": 0.1,
+      "l": 2,
+      "omega": {
+        "re": 0.35172488998131124,
+        "im": -0.374197257891371
+      },
+      "converged": true,
+      "residual": {
+        "re": 4.192583799393343e-08,
+        "im": 3.37014958219121e-08
+      },
+      "match_rstar": 45.0,
+      "d_Re_vs_schw": -0.019438863752466284,
+      "d_Im_vs_schw": -0.3738811677042341
+    },
+    {
+      "name": "hayward",
+      "ell": 0.03,
+      "l": 2,
+      "omega": {
+        "re": 0.35172906015456695,
+        "im": -0.3741205976853222
+      },
+      "converged": false,
+      "residual": {
+        "re": -1.1777537773108786e-07,
+        "im": -4.384343829693497e-08
+      },
+      "match_rstar": 45.0,
+      "d_Re_vs_schw": -0.01943469357921057,
+      "d_Im_vs_schw": -0.3738045074981853
+    },
+    {
+      "name": "hayward",
+      "ell": 0.01,
+      "l": 2,
+      "omega": {
+        "re": 0.3517292921686396,
+        "im": -0.37411437582484386
+      },
+      "converged": false,
+      "residual": {
+        "re": 8.730994993580614e-09,
+        "im": -5.903175810921697e-08
+      },
+      "match_rstar": 45.0,
+      "d_Re_vs_schw": -0.01943446156513795,
+      "d_Im_vs_schw": -0.37379828563770695
+    }
+  ]
+}

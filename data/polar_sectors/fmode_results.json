@@ -1,0 +1,81 @@
+{
+  "meta": "f-modes via RelModPy (LD85 + AKS95 + Muller), EOS adapters are our own",
+  "validation_A": {
+    "got": 0.17084379239388625,
+    "ref": 0.171,
+    "rel": 0.0009134947725950984,
+    "ImwM": 6.191578506446665e-05
+  },
+  "validation_B": {
+    "f_kHz_14": 1.8992280964142296,
+    "anchor_range_kHz": [
+      1.8,
+      2.1
+    ],
+    "passed": true,
+    "note": "literature anchor: f-modes of SLy-like EOS at 1.4 M_sun fall in 1.8-2.1 kHz (Andersson-Kokkotas 1998; Kokkotas-Ruoff 2001 -- from abstracts, status noted in SOURCES); Im(omega)>0 = damping (RelModPy convention, cross-checked against anchor A)"
+  },
+  "sly_fmodes": [
+    {
+      "M_solar": 1.4,
+      "M_km": 2.067274999922084,
+      "R_km": 11.548581435491128,
+      "f_kHz": 1.8992280964142296,
+      "Im_sign_stable": true,
+      "tau_s": 1.249999968488029
+    },
+    {
+      "M_solar": 1.8,
+      "M_km": 2.657925000733515,
+      "R_km": 11.253328621300385,
+      "f_kHz": 2.1696765391273605,
+      "Im_sign_stable": true,
+      "tau_s": 0.40940946161956615
+    },
+    {
+      "M_solar": 2.0,
+      "M_km": 2.953250006020565,
+      "R_km": 10.722349535538026,
+      "f_kHz": 2.3851656865155673,
+      "Im_sign_stable": true,
+      "tau_s": 0.38838695906870685
+    }
+  ],
+  "hybrid_26": [
+    {
+      "Gamma1_core": 1000.0,
+      "error": "minimum |Ain| did not reach zero: 8.54e-02"
+    },
+    {
+      "Gamma1_core": 100000.0,
+      "error": "minimum |Ain| did not reach zero: 8.54e-02"
+    }
+  ],
+  "hybrid_branch_fmodes": [
+    {
+      "M_solar": 1.8,
+      "R_km": 11.202920573774865,
+      "f_kHz": 2.161053745513349,
+      "stable": true,
+      "tau_s": 0.8638227055378609
+    },
+    {
+      "M_solar": 2.2,
+      "R_km": 10.87035010034729,
+      "f_kHz": 2.2976590170492823,
+      "stable": true,
+      "tau_s": 0.913785313951668
+    },
+    {
+      "M_solar": 2.6,
+      "error": "minimum |Ain| did not reach zero: 8.54e-02"
+    },
+    {
+      "M_solar": 3.0,
+      "R_km": 10.830595865647798,
+      "f_kHz": 1.9261640300587357,
+      "stable": true,
+      "tau_s": 8.064091648677877
+    }
+  ]
+}

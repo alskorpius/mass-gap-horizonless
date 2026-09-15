@@ -1,0 +1,61 @@
+{
+  "meta": "P12: condition X for outcome A (surviving remnant on the corner branch) against late-time GW170817 observations",
+  "rows": [
+    {
+      "M": 2.7,
+      "P_ms": 1.0,
+      "L_sd_B12": 1.5297338273089222e+43,
+      "L_late_bound": 3e+39,
+      "B_limit_for_quiet": 14004019026.411196,
+      "E_rot": 4.327567430990614e+52,
+      "eta_max_km": 0.023107669977336254
+    },
+    {
+      "M": 2.7,
+      "P_ms": 2.0,
+      "L_sd_B12": 9.560836420680764e+41,
+      "L_late_bound": 3e+39,
+      "B_limit_for_quiet": 56016076105.64478,
+      "E_rot": 1.0818918577476535e+52,
+      "eta_max_km": 0.09243067990934502
+    },
+    {
+      "M": 2.7,
+      "P_ms": 5.0,
+      "L_sd_B12": 2.4475741236942765e+40,
+      "L_late_bound": 3e+39,
+      "B_limit_for_quiet": 350100475660.2798,
+      "E_rot": 1.731026972396246e+51,
+      "eta_max_km": 0.5776917494334063
+    },
+    {
+      "M": 2.9,
+      "P_ms": 1.0,
+      "L_sd_B12": 1.5297338273089222e+43,
+      "L_late_bound": 3e+39,
+      "B_limit_for_quiet": 14004019026.411196,
+      "E_rot": 4.648127981434364e+52,
+      "eta_max_km": 0.021514037565106163
+    },
+    {
+      "M": 2.9,
+      "P_ms": 2.0,
+      "L_sd_B12": 9.560836420680764e+41,
+      "L_late_bound": 3e+39,
+      "B_limit_for_quiet": 56016076105.64478,
+      "E_rot": 1.162031995358591e+52,
+      "eta_max_km": 0.08605615026042465
+    },
+    {
+      "M": 2.9,
+      "P_ms": 5.0,
+      "L_sd_B12": 2.4475741236942765e+40,
+      "L_late_bound": 3e+39,
+      "B_limit_for_quiet": 350100475660.2798,
+      "E_rot": 1.859251192573746e+51,
+      "eta_max_km": 0.537850939127654
+    }
+  ],
+  "condition_X": "A surviving remnant on the corner branch (M~2.7-2.9, R=10.8 km) is consistent with the late-time GW170817 observations if it is \"quiet\": spin-down dipole luminosity L_sd < L_X-afterglow ~ 3e39 erg/s (scale of 1000+ days) => at P=1 ms B_p <= 1.4e10 G; at P=2 ms B_p <= 5.6e10; at P=5 ms B_p <= 3.5e11 G. Alternative: early spin-down (B>=1e15 G, tau<days) with <= ~2%% of E_rot~4-5e52 erg deposited as radiation (otherwise it overpowers the kilonova, cap ~1e51 erg). Consistent with Ai+2018 (P~ms, B<=1e10-1e12 G depending on the coupling, 'no clear exclusion... limited') and Piro+2019 (B~1e12 G allowed in their setup); a millisecond magnetar with B~1e14-1e15 G is EXCLUDED (L_sd=1.5e45-1.5e47 >> 1e40 observed).",
+  "verdict": "outcome A is NOT EXCLUDED under condition X: a quiet remnant (B_p <= 1.4e10 G at P=1 ms, weaker for shorter periods / up to ~3.5e11 G at 5 ms) or early spin-down loss with <= 2% of E_rot deposited; a millisecond magnetar with B >= 1e13.5 G is excluded by late-time X-ray/radio"
+}

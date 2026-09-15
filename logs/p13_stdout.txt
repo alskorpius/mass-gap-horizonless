@@ -1,0 +1,12 @@
+E_rot(M=2.8, P=1.0 ms) = 4.49e+52 erg
+quiet B=1e+10: L_sd=1.53e+39, over 1.7 s => 2.60e+39 erg vs jet 3e+49 (deficit 1e+10)
+quiet B=1e+11: L_sd=1.53e+41, over 1.7 s => 2.60e+41 erg vs jet 3e+49 (deficit 1e+08)
+quiet B=1e+12: L_sd=1.53e+43, over 1.7 s => 2.60e+43 erg vs jet 3e+49 (deficit 1e+06)
+B for L_sd=1e46 (jet over ~1 s): 2.56e+13 G
+B=1.0e+15: tau=0.03 d, L_sd(1000d)=1.76e+40 erg/s
+B=3.0e+15: tau=0.00 d, L_sd(1000d)=1.96e+39 erg/s
+B=3.2e+15: tau=0.00 d, L_sd(1000d)=1.76e+39 erg/s
+B=1.0e+16: tau=0.00 d, L_sd(1000d)=1.76e+38 erg/s
+B_quiet(L_sd(1000d)<3e39) = 2.42e+15 G
+Chandra excess ~3e-14 => L ~ 5.74e+39 erg/s
+"P13.1: branch (a) quiet-from-birth CONTRADICTS the jet -- over 1.7 s 2.6e39-2.6e43 erg is available (B=1e10-1e12) against the required ~3e49 (structured jet) -- deficit 1e6-1e10; jet launch requires L_sd≳1e46 => B≳2.6e13 (proto-magnetar class of successful jets: B~1e15-1e16). Survival -- only branch (b) of ultra-early spin-down: B>=2.4e15 G (quiet by day 1000). P13.2: NOT an exclusion, a tight constraint -- the wind phase ≲2-20 s (blue budget 0.02 Msun against mdot 1e-3-1e-2 Msun/s; the red component is preserved). P13.3: dipole coherence at the level of 1e15.5-1e16 after KH/MRI amplification (small-scale, up to 1e15-1e16) -- an OPEN assumption. P13.4: POSITIVE PREDICTION: a remnant with B=(1.4-2.0)e15 G gives L_sd(1200-1500 d)=(3-6)e39 erg/s -- the band of the late Chandra excess; B>=2.4e15 -- hidden (L<3e39 at all epochs). Range allowed by the late-time data: L_sd(1200d) <= 6e39 erg/s"

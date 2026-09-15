@@ -1,0 +1,86 @@
+{
+  "mag_channel": {
+    "E_jet": 3e+49,
+    "E_afterglow": 1e+50,
+    "E_blue_kn": 1e+51,
+    "E_wind_cap": 1.13e+51,
+    "frac_ofErot": 0.025111111111111112,
+    "statement": "the magnetic wind <= 1.1e+51 erg => fraction of E_rot <= 2.5% -- the referee's ≲0.2-2% is confirmed (our upper bound ~2%)"
+  },
+  "gw_channel": {
+    "E_rot": 4.5e+52,
+    "I_cgs": 2.2735702079999996e+45,
+    "B": 2400000000000000.0,
+    "L_sd_mag": 8.811266845299392e+49,
+    "tau_mag_s": 510.7097627398092,
+    "eps_eq_tauGW_eq_tauSD": 0.003963393430600416,
+    "eps_for_tauGW": {
+      "1e+02s": 0.008956828633415211,
+      "1e+03s": 0.00283239790934054
+    },
+    "eps_mag_scaling": "ε_mag ≈ 1e-12 (B_p/1e14)² (toroidal internal field; Cutler 2002, Haskell+2008; Dall'Osso+2015)",
+    "eps_mag_at_B": 5.76e-10,
+    "eps_max_geometric": "ε <= 0.01-0.1 (geometric saturation)",
+    "statement": "τ_GW < τ_sd requires ε ≥ 4.0e-03; the magnetic deformation at B=2.4e15 gives ε_mag ≈ 5.8e-10 ≫ the required value -- GW domination IS ACHIEVABLE (even overshot: a saturation/dissipation mechanism is needed); at ε~4e-03 the spin-down proceeds over τ_GW~511 s"
+  },
+  "retrospective": {
+    "f_GW_Hz": 1999.9999999999998,
+    "h_rss_limit_short": 2.1e-22,
+    "h_rss_limit_long": 8.4e-22,
+    "E_limit_short_erg": 1.0710724177655349e+55,
+    "E_limit_long_erg": 1.7137158684248558e+56,
+    "h_rss_signal_at_Erot": 1.3611818007488828e-23,
+    "ratio_signal_over_limit": 0.06481818098804204,
+    "statement": "the Abbott+2017 limit (short, 1-4 kHz) corresponds to E_GW <= 1.07e+55 erg (at 2 kHz, 40 Mpc); the corner signal E_GW=4.5e52 erg => h_rss=1.4e-23 = 6e-02x the limit -- ORDERS OF MAGNITUDE HIGHER: **the corner branch would already be EXCLUDED by the 2017 data** if the GW spin-down ran at f~2 kHz with E~E_rot"
+  },
+  "forward": {
+    "rows": [
+      {
+        "network": "O2 (2017)",
+        "strain_factor": 1.0,
+        "E_limit_erg": 1.0710724177655349e+55,
+        "E_rot_detectable": false
+      },
+      {
+        "network": "A+ (~3×)",
+        "strain_factor": 3.0,
+        "E_limit_erg": 1.1900804641839276e+54,
+        "E_rot_detectable": false
+      },
+      {
+        "network": "ET (~100×)",
+        "strain_factor": 100.0,
+        "E_limit_erg": 1.0710724177655348e+51,
+        "E_rot_detectable": true
+      },
+      {
+        "network": "CE (~300×)",
+        "strain_factor": 300.0,
+        "E_limit_erg": 1.1900804641839276e+50,
+        "E_rot_detectable": true
+      }
+    ],
+    "statement": "A+ (~3x by strain): E_lim ~ 1.2e+54 erg -- the signal 4.5e52 erg is ~7 orders of magnitude above threshold; the next GW170817-like event in A+ MUST reveal (or exclude) a post-merger signal with E_GW ~ 10^52 erg at f~kHz; ET/CE -- with a margin of 10^4-10^5"
+  },
+  "budget_table": [
+    {
+      "channel": "magnetic wind (jet+afterglow+blue kn)",
+      "frac": "2.5%",
+      "constraint": "GW170817 energetics",
+      "status": "<=2.5% -- FORCED"
+    },
+    {
+      "channel": "GW at f~2f_rot~2 kHz",
+      "frac": "up to 100% at ε≥4e-3",
+      "constraint": "Abbott+2017: signal 0.06x the limit",
+      "status": "COMPATIBLE with 2017 (not excluded); A+ insufficient (26x margin below the limit); ET/CE will detect it"
+    },
+    {
+      "channel": "neutrinos (thermal)",
+      "frac": "<1%",
+      "constraint": "cooling",
+      "status": "small"
+    }
+  ],
+  "verdict": "Budget: the magnetic wind into observable channels <=2.5% (ceiling 1.1e51 erg), neutrinos <1%; the rest is either a weakly-coupled polar outflow (proto-funnel, weakly constrained) or GW. GW at f~2 kHz: h_rss(4.5e52 erg, 40 Mpc) = 1.4e-23 = 0.06x the Abbott+2017 limit (E_lim = 1.1e55 erg) -- COMPATIBLE with non-detection (the referee's expectation is confirmed numerically). A+ (x3 by strain): E_lim ~ 1.2e54 -- the signal is still 26x below threshold -- A+ IS INSUFFICIENT; ET/CE (x100-300): E_lim ~ 1e50-1e51 -- the signal is 3-5 orders of magnitude above threshold -- detection is guaranteed. Requirement for GW domination: ε >= 4e-3 (τ_GW <= τ_sd = 511 s); the magnetic deformation at the dipole level gives ε_mag ≈ 5.8e-10 -- insufficient by 7 orders of magnitude; an internal toroid of ~6e18 G is needed, ≈ (1.5x) saturation -- extreme. PREDICTION: the next GW170817-like event in ET/CE MUST reveal or exclude a post-merger signal with E_GW ~ 4.5e52 erg at f ~ 1-2 kHz lasting ~10^2-10^3 s; in A+ -- only if ε is at the upper edge (f lower, signal longer)"
+}

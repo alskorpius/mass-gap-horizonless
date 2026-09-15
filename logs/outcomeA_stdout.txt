@@ -1,0 +1,7 @@
+M=2.7, P=1.0 ms: L_sd(B=1e12)=1.53e+43 erg/s; B_quiet=1.4e+10 G; E_rot=4.33e+52 erg (eta_max into kilonova 0.023)
+M=2.7, P=2.0 ms: L_sd(B=1e12)=9.56e+41 erg/s; B_quiet=5.6e+10 G; E_rot=1.08e+52 erg (eta_max into kilonova 0.092)
+M=2.7, P=5.0 ms: L_sd(B=1e12)=2.45e+40 erg/s; B_quiet=3.5e+11 G; E_rot=1.73e+51 erg (eta_max into kilonova 0.578)
+M=2.9, P=1.0 ms: L_sd(B=1e12)=1.53e+43 erg/s; B_quiet=1.4e+10 G; E_rot=4.65e+52 erg (eta_max into kilonova 0.022)
+M=2.9, P=2.0 ms: L_sd(B=1e12)=9.56e+41 erg/s; B_quiet=5.6e+10 G; E_rot=1.16e+52 erg (eta_max into kilonova 0.086)
+M=2.9, P=5.0 ms: L_sd(B=1e12)=2.45e+40 erg/s; B_quiet=3.5e+11 G; E_rot=1.86e+51 erg (eta_max into kilonova 0.538)
+outcome A is NOT EXCLUDED under condition X: a quiet remnant (B_p <= 1.4e10 G at P=1 ms, weaker for shorter periods / up to ~3.5e11 G at 5 ms) or early spin-down loss with <= 2% of E_rot deposited; a millisecond magnetar with B >= 1e13.5 G is excluded by late-time X-ray/radio

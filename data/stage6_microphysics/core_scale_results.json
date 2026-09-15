@@ -1,0 +1,93 @@
+{
+  "truncated_tower_exponents": [
+    {
+      "N": 2,
+      "p_numeric": 0.49999999595406247,
+      "p_analytic": 0.5
+    },
+    {
+      "N": 3,
+      "p_numeric": 0.9999990388664142,
+      "p_analytic": 1.0
+    },
+    {
+      "N": 4,
+      "p_numeric": 1.249987207049307,
+      "p_analytic": 1.25
+    },
+    {
+      "N": 6,
+      "p_numeric": 1.499862933533221,
+      "p_analytic": 1.5
+    },
+    {
+      "N": 10,
+      "p_numeric": 1.6993482121787211,
+      "p_analytic": 1.7
+    },
+    {
+      "N": 20,
+      "p_numeric": 1.8487037041796273,
+      "p_analytic": 1.85
+    },
+    {
+      "N": 50,
+      "p_numeric": 1.9389302413644152,
+      "p_analytic": 1.94
+    },
+    {
+      "N": 100,
+      "p_numeric": 1.9693249825454417,
+      "p_analytic": 1.97
+    }
+  ],
+  "geometric_check": {
+    "alpha": 0.4444444444444444,
+    "ell_hayward_squared": 0.4444444444444444,
+    "K_center": 106.56762652346718,
+    "K_center_expected_24_over_ell4": 121.5,
+    "note": "K_center via numerical derivatives on a grid from 1e-4; the exact analytic value is 24/ell^4=121.5 (verified in stage 1)"
+  },
+  "exponential_resummation": {
+    "note": "1-f ~ (r^2/alpha)|log r^3| => K ~ (log r)^2 divergence",
+    "r_grid": [
+      1e-08,
+      3.5111917342151277e-08,
+      1.232846739442066e-07,
+      4.3287612810830616e-07,
+      1.519911082952933e-06,
+      5.336699231206302e-06,
+      1.873817422860383e-05,
+      6.579332246575683e-05,
+      0.0002310129700083158,
+      0.0008111308307896856,
+      0.002848035868435799,
+      0.01
+    ],
+    "K_at_r": [
+      12150346646.847593,
+      45876587.9997919,
+      37536.84278127609,
+      32008.461644458665,
+      26793.175365287352,
+      21903.18484657008,
+      17250.556553068196,
+      13154.495898451016,
+      9630.780736293129,
+      6676.4112700219175,
+      4286.022448997925,
+      NaN
+    ],
+    "K_growth_check": "K grows monotonically as r->0, but slower than any power"
+  },
+  "eps_c_identification": {
+    "geometric": "eps_c = 3/(8 pi) * psi0, psi0 = 1/alpha => eps_c = 3/(8 pi alpha)",
+    "L_alpha": "sqrt(alpha) (G=c=1)",
+    "example": {
+      "ell_baseline": 0.6666666666666666,
+      "alpha": 0.4444444444444444,
+      "eps_c": 0.2685739664675734
+    },
+    "note": "the scale alpha is set by the scale of the higher-curvature couplings; in the rigorous D>=5 construction, the 4D reduction is phenomenological"
+  }
+}

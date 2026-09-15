@@ -1,0 +1,38 @@
+{
+  "meta": "self-audit part 1: independent pencil method, differentials, comparison with the companion paper and Leaver",
+  "leaver_control": {
+    "ours_re": 0.3732578509252476,
+    "ours_im": -0.0884037595562771,
+    "leaver_re": 0.37367168,
+    "leaver_im": -0.08896232,
+    "rel_err": 0.0018097616289486417
+  },
+  "differentials": [
+    {
+      "ell": 0.1,
+      "dRe_own": 0.00032414973351219123,
+      "dIm_own": 0.00015575102206698277,
+      "dRe_over_Re_own": 0.000867472037249896,
+      "dRe_law_BHP2": 0.0003250943616,
+      "ratio_own_over_law": 0.9970942956895357
+    },
+    {
+      "ell": 0.03,
+      "dRe_own": 2.8714739684854163e-05,
+      "dIm_own": 1.5464008897889125e-05,
+      "dRe_over_Re_own": 7.684483791989311e-05,
+      "dRe_law_BHP2": 2.9258492543999994e-05,
+      "ratio_own_over_law": 0.9814155545324792
+    },
+    {
+      "ell": 0.01,
+      "dRe_own": 3.186955294498528e-06,
+      "dIm_own": 1.7305274343515364e-06,
+      "dRe_over_Re_own": 8.528757904528725e-06,
+      "dRe_law_BHP2": 3.2509436159999995e-06,
+      "ratio_own_over_law": 0.9803170005205432
+    }
+  ],
+  "verdict": "CONFIRMED (triple check)",
+  "pencil_note": "rank 4-6 pencil, scan of 8 windows, selection by physical band, clustering; differentials at matching grid/windows cancel common systematics"
+}

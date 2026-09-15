@@ -1,0 +1,14 @@
+{
+  "D=5": {
+    "inv_ok": false,
+    "gb_ok": false,
+    "GB_ds": "120*H2**2",
+    "ref": "100*H2**2"
+  },
+  "D=6": {
+    "inv_ok": false,
+    "gb_ok": false,
+    "GB_ds": "365*H2**2",
+    "ref": "330*H2**2"
+  }
+}

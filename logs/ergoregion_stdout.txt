@@ -1,0 +1,8 @@
+(1) ergoregion at R*>2M: False (expected False); fraction with an ergotorus in the window r+<R*<2M: 1.0
+(3) window closed even for the slowest mode (1e15 M): True; example: 30 Msun, tau_fast=1.5e+02 s, tau_worst=1.5e+11 s (t_astro=3e17 s)
+(4) M=10.0 Msun, chi=0.7, R*/2M=1.2: Omega*=3.6e+02 Hz, f_echo=4.5e+02 Hz, resolvable by LIGO: True
+(4) M=10.0 Msun, chi=0.9, R*/2M=1.2: Omega*=4.4e+02 Hz, f_echo=4.5e+02 Hz, resolvable by LIGO: True
+(4) M=30.0 Msun, chi=0.7, R*/2M=1.2: Omega*=1.2e+02 Hz, f_echo=1.5e+02 Hz, resolvable by LIGO: True
+(4) M=30.0 Msun, chi=0.9, R*/2M=1.2: Omega*=1.5e+02 Hz, f_echo=1.5e+02 Hz, resolvable by LIGO: True
+(4) M=60.0 Msun, chi=0.7, R*/2M=1.2: Omega*=60 Hz, f_echo=75 Hz, resolvable by LIGO: True
+(4) M=60.0 Msun, chi=0.9, R*/2M=1.2: Omega*=74 Hz, f_echo=75 Hz, resolvable by LIGO: True

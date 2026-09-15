@@ -1,0 +1,6 @@
+thresholds: [(2, 5.0, 8.43), (2, 29.0, 3.5), (6, 5.0, 4.95), (6, 29.0, 2.06), (40, 5.0, 3.87), (40, 29.0, 1.61)]
+condition 2.7: [(2, 48.8), (6, 16.8), (40, 10.3)]
+throat: R*=10.3 km = 1.29*2M; χ=0.194; E_rot=3.90e+52 erg
+jet: P_BZ(1e15)=3.48e+48 erg/s, B_need=2.25e+15 G; νν: 1e+48-1e+49 erg
+ergo: not applicable; counterfactual τ∈[1e+01, 1e+10] s vs age 2.9e+08 s
+verdict recorded

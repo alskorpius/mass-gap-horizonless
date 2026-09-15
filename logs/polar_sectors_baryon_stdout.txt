@@ -1,0 +1,9 @@
+M=1.70 M☉: R=11.37 km, M_b(k=1)=1.960 M☉ (envelope 1.945 + core 0.014)
+M=2.00 M☉: R=10.98 km, M_b(k=1)=2.286 M☉ (envelope 1.814 + core 0.472)
+M=2.20 M☉: R=10.87 km, M_b(k=1)=2.482 M☉ (envelope 1.704 + core 0.779)
+M=2.60 M☉: R=10.80 km, M_b(k=1)=2.839 M☉ (envelope 1.471 + core 1.369)
+M=2.70 M☉: R=10.80 km, M_b(k=1)=2.920 M☉ (envelope 1.406 + core 1.514)
+M=3.00 M☉: R=10.83 km, M_b(k=1)=3.137 M☉ (envelope 1.191 + core 1.946)
+M=3.30 M☉: R=10.89 km, M_b(k=1)=3.293 M☉ (envelope 0.919 + core 2.375)
+M=3.45 M☉: R=10.92 km, M_b(k=1)=3.330 M☉ (envelope 0.741 + core 2.589)
+"the GW170817 remnant (M_b ~ 2.8-3.0) FITS on the branch (M_b(2.7)=2.92, M_b,max=3.33 at k=1): within the corner scenario the remnant is NOT REQUIRED to collapse -- the model PREDICTS a surviving compact object in place of GW170817; this is in tension with the standard inference M_TOV<=2.2-2.3 (Margalit-Metzger-type), which is itself EOS-dependent. Two outcomes: (A) the remnant survived -- testable via late-time emission; (B) the remnant collapsed -- the corner is excluded, and the GW190814 candidacy dies with it"

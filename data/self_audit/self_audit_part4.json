@@ -1,0 +1,32 @@
+{
+  "method": "RK4 (same branch-entropy counter), step scan",
+  "reference_euler": {
+    "K_max_over_Kplanck": 1.12
+  },
+  "rows": [
+    {
+      "dt": 0.002,
+      "K_max": 26.945993670794753,
+      "K_max_over_Kplanck": 1.1227497362831147,
+      "e_final": 0.0001336175701794836,
+      "bounced": true
+    },
+    {
+      "dt": 0.001,
+      "K_max": 26.945993671466454,
+      "K_max_over_Kplanck": 1.1227497363111023,
+      "e_final": 0.0001336116132696052,
+      "bounced": true
+    },
+    {
+      "dt": 0.0002,
+      "K_max": 26.946024204841404,
+      "K_max_over_Kplanck": 1.1227510085350585,
+      "e_final": 0.00019591166709012758,
+      "bounced": true
+    }
+  ],
+  "spread_rel": 1.1331559126860844e-06,
+  "note_comment_bug": "the cosmo_transfer comment 'the vacuum branch slows the contraction (dH/dt>0)' is wrong in sign: dH/dt<0 throughout the branch (e>e_c => e+p>0, 1-2e>0); the integration itself is correct — the slowdown is a near-freeze (|dH/dt|~small), not a growth of H",
+  "verdict": "CONFIRMED (K_max bounded ~Planckian, spread <10%% across steps)"
+}

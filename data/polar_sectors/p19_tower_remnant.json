@@ -1,0 +1,120 @@
+{
+  "assumptions": {
+    "M_grav_Msun": 2.7,
+    "P_ms": 1.0,
+    "k_I": 0.35,
+    "eps_nuc_km2": 0.0002,
+    "I_note": "I=0.35MR^2 -- a reference value (fluid star); the moment of inertia of the throat geometry was not computed -- it affects only χ and E_rot, not the conclusions about the ergosphere"
+  },
+  "threshold": {
+    "rows": [
+      {
+        "n": 2,
+        "eps_c_eps_nuc": 5.0,
+        "M_ext_Msun": 8.430841032086246,
+        "ell0_km": 10.92548430592079
+      },
+      {
+        "n": 2,
+        "eps_c_eps_nuc": 29.0,
+        "M_ext_Msun": 3.5007161954010124,
+        "ell0_km": 4.536560434098486
+      },
+      {
+        "n": 6,
+        "eps_c_eps_nuc": 5.0,
+        "M_ext_Msun": 4.954827193490857,
+        "ell0_km": 10.92548430592079
+      },
+      {
+        "n": 6,
+        "eps_c_eps_nuc": 29.0,
+        "M_ext_Msun": 2.0573800093790395,
+        "ell0_km": 4.536560434098486
+      },
+      {
+        "n": 40,
+        "eps_c_eps_nuc": 5.0,
+        "M_ext_Msun": 3.8725970206480826,
+        "ell0_km": 10.92548430592079
+      },
+      {
+        "n": 40,
+        "eps_c_eps_nuc": 29.0,
+        "M_ext_Msun": 1.6080083892994186,
+        "ell0_km": 4.536560434098486
+      }
+    ],
+    "condition_2p7": [
+      {
+        "n": 2,
+        "eps_c_max_eps_nuc": 48.75108402490333,
+        "ell0_min_km": 3.498916361216995
+      },
+      {
+        "n": 6,
+        "eps_c_max_eps_nuc": 16.83834877733641,
+        "ell0_min_km": 5.953549230685308
+      },
+      {
+        "n": 40,
+        "eps_c_max_eps_nuc": 10.286013500913857,
+        "ell0_min_km": 7.617319196576123
+      }
+    ],
+    "reviewer_band": "4.9-6.8 Msun at ℓ0≈5-11 km (our n=6->4.9 / n≈4->6.8 / n=2->8.4 at ε_c=5ε_nuc)",
+    "statement": "2.7 Msun is horizonless for ε_c ≲ 17 ε_nuc (n=6, ℓ0≳6 km) through 49 ε_nuc (n=2): most of the allowed band 5-29 ε_nuc; at the sharp edge (ε_c≳17, n=6) the remnant would have been two-horizon"
+  },
+  "geometry": {
+    "eps_c_choice": "5 ε_nuc (soft edge of the band)",
+    "M_over_Mext": 0.5449231415269099,
+    "rc_over_M": 2.573103363272312,
+    "R_star_km": 10.258499950761317,
+    "R_star_over_2M": 1.286551681636156,
+    "chi": 0.19358090373063677,
+    "E_rot_erg": 3.904487655505914e+52,
+    "criterion_ergo": "R*<2M (shell/Kerr)",
+    "ergosphere": "NONE at any spin: smooth tower f(r)>0 everywhere (no ergosurface by construction) AND R*/2M=1.29>1 (criterion for a shell realization)"
+  },
+  "jet": {
+    "BZ_wouldbe": {
+      "P_at_1e15_erg_s": 3.4838804136131536e+48,
+      "B_needed_G": 2250632298572306.5,
+      "note": "normalization P=(κ/6πc)Φ²Ω², κ=0.05, Φ=2π r_g²B; Ω=2π/P; the ENERGETICS is sufficient for B_disk≳2.3e+15 G (within the MRI band 1e15-1e6 of Kiuchi+2018)"
+    },
+    "mechanism": "ABSENT for a purely geometric object: no horizon (nothing to thread field lines onto), no ergosphere (no negative-energy orbits), no material surface (no anchor for the disk field)",
+    "nunu_annihilation": {
+      "E_erg": [
+        1e+48,
+        1.0000000000000001e+49
+      ],
+      "note": "η_νν~1e-4-1e-3 x L_ν~1e52 erg/s x 1 s (stated normalization, not the primary source); <3e49 and uncollimated"
+    },
+    "magnetic_tower": "an anchor is needed -- absent",
+    "shell_fork": "in the shell realization (stage9-10) there is material in a shell -> an anchor exists -> the channel opens; but this is no longer 'without matter', and then the P17 budget applies",
+    "verdict": "A BRANCH PROBLEM (not an exclusion): the energetics of every mechanism is <= what is needed; pure geometry has no anchor"
+  },
+  "ergoinstability": {
+    "applicable": false,
+    "reason": "there is no ergosphere (f>0; R*/2M>1) -> the Friedman instability does not apply; trivially compatible with 9 years",
+    "counterfactual_window": {
+      "tau_range_s": [
+        13.29885,
+        13298850000.0
+      ],
+      "tau_range_human": "13 s - 422 years (Franzin+2022 frequencies Mω_I∈[1e-15,1e-6], rescaled to 2.7 Msun)",
+      "age_yr": 9.1,
+      "straddles": true,
+      "mw_I_at_age": 4.630583295031965e-14,
+      "note": "within the window the outcome is undetermined (some modes would already have grown); a spin reset would give h_rss=1.3e-23=0.06xO2 -- untestable"
+    },
+    "h_rss_if_spindown": 1.267920150722972e-23
+  },
+  "discriminator": {
+    "tower_prediction": "quiet remnant: the late-time X-ray excess = pure kilonova afterglow t^-2, remnant contribution = 0; the blue component is the neutrino wind of the HOT DISK (~1e51 erg, seconds), not of the object",
+    "corner_prediction": "plateau/excess after ~1000 days (P13, L_sd∼3-6e39) -- now on the disfavored corner branch",
+    "hajela2022": "the ~1200-1500 day excess is statistically marginal; t^-2 falls within the error bars -> the data today are closer to a pure afterglow (tower); persistence of the excess would point to an engine (corner-like)",
+    "open_caveat": "the Y_e microphysics of the wind without remnant neutrinos was not modeled (disk only)"
+  },
+  "verdict": "The geometric branch PREDICTS a quiet horizonless remnant for GW170817 (2.7 Msun < the threshold 4.9-8.4 Msun at ε_c=5 ε_nuc; condition ε_c≲17 ε_nuc for n=6). Checks: (1) COMPATIBLE -- E_rot=3.9e+52 erg is locked in (a stationary axisymmetric object with no matter and no field does not radiate); the kilonova/afterglow require nothing of the remnant, the blue component is the disk ν-wind. (2) PROBLEM -- the jet: would-be BZ 3.5e+48 erg/s at B=1e15 G is sufficient for B≳2.3e+15 G, but pure geometry has no anchor; νν~1e48-1e49 <3e49 and does not collimate. (3) COMPATIBLE -- there is no ergosphere at any spin (f>0; R*/2M=1.29); the Friedman instability does not apply; in the counterfactual window τ=13s-422yr against 9 years -- the outcome is undetermined, the radiation is untestable (0.06xO2). (4) DISCRIMINATOR -- tower: pure t^-2; corner (disfavored): plateau; Hajela+2022 today is closer to t^-2. Bottom line: the branch passes checks 1, 3, 4 and carries one problem (the jet); the remnant's status -- 'quiet tower' -- is recorded in the preprint"
+}

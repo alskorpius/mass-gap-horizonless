@@ -1,0 +1,72 @@
+{
+  "meta": "friedmann_tower; D-setup D>=5 (D=4 is phenomenology, caveat of stage 6); the rigorous part is the resummed relation (closed form) and the Ricci validation of FRW; the tower's relation-equation on FRW is taken in structural form h(psi)=S with source S (the normalization of S is unknown — quasi-topological BCH densities; conclusions about the cap are normalization-robust); the full dynamical equations (Hdot) are out of scope",
+  "ricci_validation": {
+    "D=4": {
+      "D": 4,
+      "tt": true,
+      "ii": true,
+      "offdiag": true
+    },
+    "D=5": {
+      "D": 5,
+      "tt": true,
+      "ii": true,
+      "offdiag": true
+    }
+  },
+  "resummed": {
+    "psi_exact": "S/(S*alpha + 1)",
+    "cap": "1/alpha",
+    "first_order": "S**3*alpha**2 - S**2*alpha + S",
+    "template_match": "H^2 = S(1 - S/eps_c), eps_c = 1/alpha — the eps(1-eps/eps_c) template matches at first order; O((S/eps_c)^2) is the difference"
+  },
+  "truncation_support": [
+    {
+      "N": 2,
+      "S_max": 16.75041876046901,
+      "S_max_over_cap": 2
+    },
+    {
+      "N": 3,
+      "S_max": 25.125628140703515,
+      "S_max_over_cap": 3
+    },
+    {
+      "N": 5,
+      "S_max": 41.87604690117253,
+      "S_max_over_cap": 5
+    },
+    {
+      "N": 8,
+      "S_max": 67.00167504187604,
+      "S_max_over_cap": 8
+    },
+    {
+      "N": 12,
+      "S_max": 100.50251256281406,
+      "S_max_over_cap": 12
+    },
+    {
+      "N": 15,
+      "S_max": 125.62814070351759,
+      "S_max_over_cap": 15
+    }
+  ],
+  "limits": {
+    "gr_limit": {
+      "S": 1e-12,
+      "psi": 9.999999999998804e-13,
+      "rel_diff": 1.1955344790805478e-13
+    },
+    "bbn_window": {
+      "S_BBN": 1e-12,
+      "alpha": 0.1194,
+      "alphaS": 1.194e-13,
+      "correction_order": "(alpha S)^n ~ 1e-13^n: BBN/CMB unperturbed for alpha <= O(1) — the cosmo_transfer window is reproduced from the exact relation"
+    },
+    "kretschmann_cap": {
+      "statement": "H^2<1/alpha => H^4<=1/alpha^2: K~12[(Hdot+H^2)^2+H^4] is bounded in its H-parts; Hdot is not bounded at the level of the relation — the dynamical part remains out of scope"
+    }
+  },
+  "verdict": "(a) partially + (b) partially — better than expected: (i) THE CAP IS RIGOROUS: the resummed geometric tower gives a closed relation psi=S/(1+alpha S)<1/alpha for any source S — the tower caps cosmological curvature just as it does the spherical case (stage 6); (ii) THE TEMPLATE IS DERIVED AT FIRST ORDER: the expansion of the exact relation psi=S(1-alpha S)+O((alpha S)^2) is exactly H^2=eps(1-eps/eps_c) with eps_c=1/alpha (consistent with eps_c=3/(8 pi alpha) from stage 6): the LQC-like cosmo_transfer template is the [0/1]-Pade form of the tower relation — the cosmological block gains a foundation in the low-curvature regime; (iii) THE TURNAROUND of the template (H^2->0 as eps->eps_c) is NOT produced by the tower (the exact relation is monotonic toward the cap) — bounce requires dynamics (the tower's Hdot equations) and remains phenomenological; (iv) truncations at N support the source only up to S_max=N/alpha — a parallel to the soft singularities p(N)=2-3/N of stage 6; (v) BBN/CMB: corrections ~ (alpha H^2)^n — the cosmo_transfer window is reproduced. Boundaries: normalization of the source S (quasi-topological densities), D>=5 status, bounce dynamics."
+}

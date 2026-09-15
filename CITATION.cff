@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "mass-gap-horizonless: code and data for a horizonless branch in the mass gap and its gravitational-wave signatures"
+abstract: >-
+  Reproduction package for the paper "A horizonless branch in the mass gap and
+  its gravitational-wave signatures". Contains the curvature-tower mechanism and
+  its cap, the mini-theorem on the impossibility of a degenerate inner horizon in
+  the tower, the horizonlessness criterion and the threshold mass range, echoes
+  and time delays, the tidal deformability, the validated f-mode computation, the
+  baryon budget, and the quasinormal-mode results.
+type: software
+authors:
+  - given-names: Oleh
+    family-names: Popenkov
+    email: oleh.popenkov@gmail.com
+    affiliation: "Independent researcher, Kelowna, BC, Canada"
+    orcid: "https://orcid.org/0009-0008-9894-2982"
+version: 1.0.0
+date-released: "2026-09-14"
+license: MIT
+repository-code: "https://github.com/alskorpius/mass-gap-horizonless"
+keywords:
+  - general relativity
+  - gravitational waves
+  - mass gap
+  - horizonless compact objects
+  - quasinormal modes
+  - tidal deformability
+  - regular black holes

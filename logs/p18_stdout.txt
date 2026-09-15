@@ -1,0 +1,12 @@
+β (P=1 ms): {'M=2.7': '0.045', 'M=2.8': '0.043', 'M=2.9': '0.042'}
+    β=0.14 requires P ≈ 0.61 ms (faster than 1 ms)
+    growth minutes: ε_sat=0.000, E_bar=0.00e+00 erg, t_rad=inf s, L=0.00e+00 erg/s
+    growth hundreds of s: ε_sat=0.000, E_bar=0.00e+00 erg, t_rad=inf s, L=0.00e+00 erg/s
+    growth hours: ε_sat=0.000, E_bar=0.00e+00 erg, t_rad=inf s, L=0.00e+00 erg/s
+    r-mode α=1e-04: E=2.82e+39 erg
+    r-mode α=1e-03: E=2.82e+41 erg
+    r-mode α=1e-02: E=2.82e+43 erg
+    bar mode (excess β): h_rss=0.00e+00 = 0.00x the limit
+    full GW spin-down: h_rss=1.36e-23 = 0.06x the limit
+    r-mode α=1e-2: h_rss=3.41e-28 = 0.00x the limit
+verdict recorded

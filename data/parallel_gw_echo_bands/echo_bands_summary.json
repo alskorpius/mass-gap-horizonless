@@ -1,0 +1,9 @@
+{
+  "note": "geometric-optics estimate; amplitude and stability not assessed",
+  "tau_over_2M_by_ratio": {
+    "0.88": 12.235952476264439,
+    "0.95": 18.72282316861292,
+    "0.995": 55.63539284225957,
+    "0.9999": 379.31307855215294
+  }
+}

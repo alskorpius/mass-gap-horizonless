@@ -1,0 +1,114 @@
+{
+  "meta": "baryonic budget of the surviving corner branch (nt=4) vs the GW170817 remnant; core baryon content is parametrised by kappa_n (core baryon number is not modelled -- placeholder storage)",
+  "rows": [
+    {
+      "M_grav": 1.7000000309956158,
+      "R": 11.371820304675607,
+      "Rc": 1.8494533399549076,
+      "M_b_k1": 1.959671150014818,
+      "Mb_env": 1.9454960676541735,
+      "Mb_core": {
+        "kappa=1": 0.014175082360644561,
+        "kappa=2": 0.028350164721289123,
+        "kappa=5": 0.07087541180322282
+      }
+    },
+    {
+      "M_grav": 1.9999986071316376,
+      "R": 10.982350997021818,
+      "Rc": 5.952048476987418,
+      "M_b_k1": 2.2861637411208418,
+      "Mb_env": 1.8136713346671873,
+      "Mb_core": {
+        "kappa=1": 0.4724924064536543,
+        "kappa=2": 0.9449848129073086,
+        "kappa=5": 2.362462032268272
+      }
+    },
+    {
+      "M_grav": 2.2000031852097086,
+      "R": 10.870082103384796,
+      "Rc": 7.030741119511463,
+      "M_b_k1": 2.482494135224581,
+      "Mb_env": 1.703742852418208,
+      "Mb_core": {
+        "kappa=1": 0.7787512828063724,
+        "kappa=2": 1.5575025656127448,
+        "kappa=5": 3.8937564140318615
+      }
+    },
+    {
+      "M_grav": 2.6000000021416096,
+      "R": 10.80008647422208,
+      "Rc": 8.485290703519654,
+      "M_b_k1": 2.839475632775291,
+      "Mb_env": 1.4705002732097576,
+      "Mb_core": {
+        "kappa=1": 1.368975359565533,
+        "kappa=2": 2.737950719131066,
+        "kappa=5": 6.844876797827665
+      }
+    },
+    {
+      "M_grav": 2.6999999944073254,
+      "R": 10.800944705162237,
+      "Rc": 8.774836824206492,
+      "M_b_k1": 2.920443321649875,
+      "Mb_env": 1.4064895943960072,
+      "Mb_core": {
+        "kappa=1": 1.5139537272538677,
+        "kappa=2": 3.0279074545077354,
+        "kappa=5": 7.569768636269339
+      }
+    },
+    {
+      "M_grav": 2.999994454800061,
+      "R": 10.830635075501494,
+      "Rc": 9.54026206340459,
+      "M_b_k1": 3.1369234082601145,
+      "Mb_env": 1.1912212174087877,
+      "Mb_core": {
+        "kappa=1": 1.945702190851327,
+        "kappa=2": 3.891404381702654,
+        "kappa=5": 9.728510954256636
+      }
+    },
+    {
+      "M_grav": 3.2999998412193032,
+      "R": 10.88707335647447,
+      "Rc": 10.19544522249219,
+      "M_b_k1": 3.2933849387946847,
+      "Mb_env": 0.9186560198067619,
+      "Mb_core": {
+        "kappa=1": 2.374728918987923,
+        "kappa=2": 4.749457837975846,
+        "kappa=5": 11.873644594939613
+      }
+    },
+    {
+      "M_grav": 3.450007628388971,
+      "R": 10.921801973053284,
+      "Rc": 10.492951086890953,
+      "M_b_k1": 3.3297446989116057,
+      "Mb_env": 0.7410049072731674,
+      "Mb_core": {
+        "kappa=1": 2.5887397916384383,
+        "kappa=2": 5.1774795832768765,
+        "kappa=5": 12.943698958192194
+      }
+    }
+  ],
+  "comparison": {
+    "Mb_branch_at_27": 2.9204433256856253,
+    "Mb_branch_max": 3.3297446989116057,
+    "GW170817_remnant": {
+      "M_grav_total": 2.74,
+      "M_b_remnant_range": [
+        2.8,
+        3.0
+      ],
+      "source": "standard interpretation: baryonic ~2.74+0.1-0.2 (losses to ejecta/torus), per the literature"
+    },
+    "verdict": "the GW170817 remnant (M_b ~ 2.8-3.0) FITS on the branch (M_b(2.7)=2.92, M_b,max=3.33 at k=1): within the corner scenario the remnant is NOT REQUIRED to collapse -- the model PREDICTS a surviving compact object in place of GW170817; this is in tension with the standard inference M_TOV<=2.2-2.3 (Margalit-Metzger-type), which is itself EOS-dependent. Two outcomes: (A) the remnant survived -- testable via late-time emission; (B) the remnant collapsed -- the corner is excluded, and the GW190814 candidacy dies with it"
+  }
+}
